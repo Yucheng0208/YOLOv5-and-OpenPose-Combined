@@ -13,7 +13,7 @@ Yu-Cheng Chang
 
 Taiwan <yucheng208@outlook.com>
 
-Hua-Wen Tsai
+Hua-Wen Tsai
 
 *Department of Computer Information and Network Engineering,*
 
