@@ -78,7 +78,7 @@ Before starting, ensure your system meets the following requirements:
    - The system uses Raspberry Pi's Bluetooth functionality to detect the distance between the bus and the stop.
    - Upon detecting the bus approaching the stop, it captures images using OpenCV.
    - The images are first processed by YOLOv5 for object detection, identifying passengers and wheelchairs.
-   - Subsequently, the images are analyzed by OpenPose for pose estimation, recognizing passenger postures such as sitting, standing, and hand-raising.
+   Subsequently, OpenPose analyzes the images for pose estimation, recognizing passenger postures such as sitting, standing, and hand-raising.
    - Based on the detection results, the system provides voice alerts to the driver, especially concerning passengers requiring assistance.
 
 ## Academic Citation
@@ -91,13 +91,13 @@ If you use this project in your research, please cite the following paper:
 
 **Conference**: 2023 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)
 
-**DOI**: [10.1109/ICCE-TW57550.2023.10169919](https://doi.org/10.1109/ICCE-TW57550.2023.10169919)
+**DOI**: [10.1109/ICEIB57887.2023.10169919](https://doi.org/10.1109/ICEIB57887.2023.10169919)
 
 **IEEE Xplore**: [https://ieeexplore.ieee.org/document/10169919](https://ieeexplore.ieee.org/document/10169919)
 
 **BibTeX**:
 
-```bibtex
+```BibTeX
 @inproceedings{chang2023based,
   title={Based-on Computer Vision Applications for Bus Stop Passenger Detection System},
   author={Chang, Yu-Cheng and Tsai, Hua-Wen and Huang, Chao-Yi and Wu, Zong-Rong},
@@ -111,8 +111,8 @@ If you use this project in your research, please cite the following paper:
 
 ## Notes
 
-- Ensure that your devices are properly set up with the required dependencies and model files.
+- Please ensure your devices are correctly set up with the required dependencies and model files.
 - For practical applications, consider fine-tuning the models based on your specific environment to enhance detection accuracy.
 - If you encounter any issues, refer to the project's [GitHub page](https://github.com/Yucheng0208/YOLOv5-and-OpenPose-Combined) for more information or to submit an issue.
 
-We hope this project contributes to improving passenger detection and safety at bus stops.
+We hope this project improves passenger detection and safety at bus stops.
