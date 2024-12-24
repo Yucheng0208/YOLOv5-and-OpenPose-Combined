@@ -101,11 +101,11 @@ If you use this project in your research, please cite the following paper:
 @inproceedings{chang2023based,
   title={Based-on Computer Vision Applications for Bus Stop Passenger Detection System},
   author={Chang, Yu-Cheng and Tsai, Hua-Wen and Huang, Chao-Yi and Wu, Zong-Rong},
-  booktitle={2023 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)},
-  pages={1--2},
+  booktitle={2023 IEEE 3rd International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)},
+  pages={152-154},
   year={2023},
   organization={IEEE},
-  doi={10.1109/ICCE-TW57550.2023.10169919}
+  doi={10.1109/ICEIB57887.2023.10169919}
 }
 ```
 
