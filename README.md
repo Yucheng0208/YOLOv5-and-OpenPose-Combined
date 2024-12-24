@@ -87,9 +87,9 @@ If you use this project in your research, please cite the following paper:
 
 **Title**: Based-on Computer Vision Applications for Bus Stop Passenger Detection System
 
-**Authors**: Yu-Cheng Chang, Hua-Wen Tsai, Chao-Yi Huang, Zong-Rong Wu
+**Authors**: Yu-Cheng Chang*, Hua-Wen Tsai*, Chao-Yi Huang, Zong-Rong Wu
 
-**Conference**: 2023 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)
+**Conference**: 2023 IEEE 3rd International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)
 
 **DOI**: [10.1109/ICEIB57887.2023.10169919](https://doi.org/10.1109/ICEIB57887.2023.10169919)
 
