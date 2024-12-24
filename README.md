@@ -1,10 +1,10 @@
 # Computer Vision-Based Bus Stop Passenger Detection System
 
-This project aims to develop a computer vision-based bus stop passenger detection system by integrating YOLOv5 for object detection and OpenPose for pose estimation. The system can detect passengers waiting at bus stops, recognize whether they are using wheelchairs or other assistive devices, and provide voice alerts to the driver.
+This project aims to develop a computer vision-based bus stop passenger detection system. It integrates YOLOv5 for object detection and OpenPose for pose estimation. The System can detect passengers waiting at bus stops, recognize whether they are using wheelchairs or other assistive devices, and provide voice alerts to the driver.
 
 ## Abstract
 
-Passenger transport is one of the most common ways of commuting in Taiwan. It plays an important role in the transportation system due to its large number of stations, dense frequency, and cheap transportation. Due to the unfriendly transportation environment and a large number of passengers, a blind spot of passenger transportation exists, which leads to traffic accidents at the station. We research to make the "Bus Stop Passenger Detection System". Taking the object detection of "Wheelchairs" into consideration, it is more convenient to assist the disabled to find the passenger transportation system, which makes Taiwan's transportation system more convenient.
+Passenger transport is one of the most common ways of commuting in Taiwan. It plays an important role in the transportation system due to its large number of stations, dense frequency, and cheap transportation. Due to the unfriendly transportation environment and a large number of passengers, a blind spot exists in passenger transportation, which leads to traffic accidents at the station. We research to make the "Bus Stop Passenger Detection System." Taking the object detection of "Wheelchairs" into consideration, it is more convenient to assist people with disabilities to find the passenger transportation system, which makes Taiwan's transportation system more convenient.
 
 Published in: 2023 IEEE 3rd International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)
 
@@ -24,11 +24,11 @@ Conference Location: Taichung, Taiwan
 
 - **Object Detection**: Utilizes YOLOv5 to detect passengers, wheelchairs, and other objects.
 - **Pose Estimation**: Employs OpenPose to identify passenger postures such as sitting, standing, and hand-raising.
-- **Hardware Integration**: Implements Bluetooth detection and pairing via Raspberry Pi to determine the proximity between the bus and the stop, and uses OpenCV to capture images for analysis.
+- **Hardware Integration**: Implements Bluetooth detection and pairing via Raspberry Pi to determine the proximity between the bus and the stop and uses OpenCV to capture images for analysis.
 
 ## Prerequisites
 
-Before starting, ensure your system meets the following requirements:
+Before starting, ensure your System meets the following requirements:
 
 - **Operating System**: Ubuntu 20.04 or a compatible Linux distribution.
 - **Python Version**: Python 3.8 or higher.
@@ -63,7 +63,7 @@ Before starting, ensure your system meets the following requirements:
 
 5. **Configure Paths**:
 
-   Ensure that the paths to the downloaded model files are correctly set in the project's configuration files so the system can load the models properly.
+   Please ensure that the paths to the downloaded model files are correctly set in the project's configuration files so the System can load the models correctly.
 
 ## Usage
 
@@ -75,11 +75,11 @@ Before starting, ensure your system meets the following requirements:
 
 2. **System Workflow**:
 
-   - The system uses Raspberry Pi's Bluetooth functionality to detect the distance between the bus and the stop.
+   - The System uses Raspberry Pi's Bluetooth functionality to detect the distance between the bus and the stop.
    - Upon detecting the bus approaching the stop, it captures images using OpenCV.
    - The images are first processed by YOLOv5 for object detection, identifying passengers and wheelchairs.
-   Subsequently, OpenPose analyzes the images for pose estimation, recognizing passenger postures such as sitting, standing, and hand-raising.
-   - Based on the detection results, the system provides voice alerts to the driver, especially concerning passengers requiring assistance.
+   Subsequently, OpenPose analyzes the images to estimate pose, recognizing passenger postures such as sitting, standing, and hand-raising.
+   Based on the detection results, the System provides voice alerts to the driver, especially for passengers who require assistance.
 
 ## Academic Citation
 
@@ -113,6 +113,6 @@ If you use this project in your research, please cite the following paper:
 
 - Please ensure your devices are correctly set up with the required dependencies and model files.
 - For practical applications, consider fine-tuning the models based on your specific environment to enhance detection accuracy.
-- If you encounter any issues, refer to the project's [GitHub page](https://github.com/Yucheng0208/YOLOv5-and-OpenPose-Combined) for more information or to submit an issue.
+- If you happen to have any issues, please refer to the project's [GitHub page](https://github.com/Yucheng0208/YOLOv5-and-OpenPose-Combined) for more information
 
 We hope this project improves passenger detection and safety at bus stops.
